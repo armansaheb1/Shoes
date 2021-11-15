@@ -4,9 +4,9 @@
     </head>
     <div id="app">
         <div style="width: 50%; height: 100%; float: left;">
-            <button class="btn btn-dark" v-on:click="setcolor('https://amizax.com/sh_coralineY339-4.mtl')">1</button>
-            <button class="btn btn-dark" v-on:click="setcolor('https://amizax.com/sh_coralineY339-2.mtl')">2</button>
-            <button class="btn btn-dark" v-on:click="setcolor('https://amizax.com/sh_coralineY339-3.mtl')">3</button>
+            <button class="btn btn-dark" v-on:click="setcolor('sh_coralineY339-4.mtl')">1</button>
+            <button class="btn btn-dark" v-on:click="setcolor('sh_coralineY339-2.mtl')">2</button>
+            <button class="btn btn-dark" v-on:click="setcolor('sh_coralineY339-3.mtl')">3</button>
         </div>
         <div style="width: 50%;float: right;">
             <model-obj :background-color="bgColor"
@@ -22,7 +22,7 @@
         new Vue({
             el: '#app',
             data: {
-                a: '',
+                a: 'sh_coralineY339-2.mtl',
                 bgColor: '#bbbbbb'
               },
                 methods:{
